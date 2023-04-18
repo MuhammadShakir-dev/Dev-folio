@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MuhammadShakir</title>
+
+    <!--Google Fonts Link-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow+Condensed:wght@400;500;600;700&family=Bebas+Neue&family=Comfortaa:wght@300;400;500&family=Inconsolata:wght@200;400;600;700;800;900&family=Merriweather:wght@300;400;700&family=Nunito:wght@200;300;400;500;600&family=Open+Sans:wght@300;500;700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,600;0,700;1,200&family=Raleway:wght@100;200;300;400;500;600;700&family=Roboto+Condensed:wght@300;400;700&family=Roboto+Mono:wght@100;200;300;400;500;600&family=Roboto:wght@100;300;400;500;700&family=Source+Code+Pro:wght@200;300;400;500;600;700;800&family=Source+Sans+Pro:ital,wght@0,200;0,300;1,400&family=Titillium+Web:wght@200;300;400;600;700;900&family=Ubuntu:wght@300;400;500&display=swap"
+        rel="stylesheet">
+
+    <!--In page CSS Style Tag-->
+    <style>
+        body {
+            background-color: rgb(0, 0, 77);
+            font-family: 'Poppins', sans-serif;
+            margin: 0%;
+            padding: 0%;
+        }
+
+        .container {
+            display: grid;
+            grid-template-columns: repeat(1fr);
+            grid-template-rows: 80px auto 80px;
+            width: 80%;
+            height: 100vh;
+            margin: auto;
+        }
+
+        .navbar {
+            grid-column: 1 / span 2;
+            grid-row: 1 / 2;
+            display: grid;
+        }
+
+        .navbar h1 {
+            font-weight: 600;
+            font-size: 20px;
+            align-self: center;
+            justify-self: flex-start;
+            color: white;
+        }
+
+        .maincontent {
+            grid-column: 1 / span 2;
+            grid-row: 2 / 3;
+            display: grid;
+        }
+
+        .maincontent h1 {
+            align-self: center;
+            justify-self: center;
+            margin: 0%;
+            font-size: 60px;
+            color: white;
+        }
+
+        .maincontent h2 {
+            align-self: flex-start;
+            justify-self: center;
+            margin: 0px;
+            position: relative;
+            top: -30px;
+            font-size: 40px;
+            text-align: center;
+            color: white;
+        }
+        .maincontent p {
+            color: rgb(202, 202, 202);
+            margin: 0%;
+            text-align: center;
+            align-self: flex-start;
+            justify-self: center;
+            position: relative;
+            top: -40px;
+            word-break: break-all;
+            font-size: 20px;
+        }
+        .maincontent h2 span{
+            color: rgb(98, 0, 189);
+        }
+
+        button{
+            width: 170px;
+            height: 50px;
+            border-radius: 50px;
+            border: none;
+            display: inline;
+            margin: 0%;
+            align-self: flex-start;
+            justify-self: center;
+            background-color:rgb(98, 0, 189) ;
+            color: white;
+            transition: all 0.5s ease;
+        }
+        button a{
+            text-decoration: none;
+            color: white;
+            transition: all 0.5 ease;
+        }
+        button a:hover{
+            color:rgb(98, 0, 189) ;
+        }
+        button:hover{
+            background-color: white;
+            color:rgb(98, 0, 189) ;
+            cursor: pointer;
+            box-shadow: rgba(41, 41, 155, 0.25) 0px 50px 100px -20px, rgba(5, 70, 184, 0.3) 0px 30px 60px -30px;
+            transform: scale(1.1);
+        }
+
+        .footer{
+            display: grid;
+            grid-column: 1 / span 2;
+            grid-row: 3 / 4;
+        }
+        .footer p{
+            align-self: center;
+            justify-self: center;
+            color: gray;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1>MuhammadShakir-dev/></h1>
+        </div>
+
+        <div class="maincontent">
+            <h1>Hello World 👋</h1>
+            <h2>It's me. <span>Muhammad Shakir ⚡</span> <br> And I trun <span>pixels into web pages</span></h2>
+            <p>I'm a Front-end developer, UI/UX Designer, and Content Creator. Completing my Bs in Software Engineering.
+                I specialize in creating beautiful, user-friendly, and responsive website interfaces. I'm passionate
+                about creating intuitive and engaging experiences that help users achieve their goals, and I'm always
+                looking for ways to improve my skills. I'm an Open Source contributor and have 1000-plus contributions
+                on GitHub. I'm looking forward to being part of the team and working with you to create great user
+                experiences. 
+            </p>
+            <button><a href="https://linktr.ee/areyoushakir" target="_blank">Let's Connect</a></button>
+        </div>
+
+        <div class="footer">
+            <p>Made by Muhammad Shakir with love</p>
+        </div>
+    </div>
+</body>
+
+</html>
